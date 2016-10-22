@@ -41,7 +41,7 @@ namespace CountryCityInformationManagementSystem.UI
                 try
                 {
                      sql.ExecuteNonQuery();
-                    messageLable.Text = "Save Successfully.";
+                    messageLable.Text = "<h3>Save Successfully.</h3>";
                     messageLable.ForeColor = Color.Green;
                     //ShowAllData();
                     BindGridview();
@@ -49,7 +49,7 @@ namespace CountryCityInformationManagementSystem.UI
                 catch (Exception)
                 {
                     messageLable.ForeColor = Color.Red;
-                    messageLable.Text = "Data not saved.";
+                    messageLable.Text = "<h3>Data not saved.</h3>";
                 }
                
             }

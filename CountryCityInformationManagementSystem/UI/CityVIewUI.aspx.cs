@@ -26,7 +26,7 @@ namespace CountryCityInformationManagementSystem.UI
             BindGridview();
             if (cityListGridView.Rows.Count < 1)
             {
-                messageLabel.Text = "No Data Found";
+                messageLabel.Text = "<h3>No Data Found.</h3>";
                 //  messageLabel.ForeColor = ConsoleColor.Red;
                 messageLabel.ForeColor = Color.Red;
             }

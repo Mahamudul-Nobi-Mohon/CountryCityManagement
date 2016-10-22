@@ -86,7 +86,9 @@
 
                                 </td>
                                 <td>
-                                     <asp:Button ID="searchButton" runat="server" class="form-control" Text="Search" OnClick="searchButton_Click" />
+                                     <asp:Button ID="searchButton" runat="server" class="form-control btn btn-primary" Text="Search" OnClick="searchButton_Click" />
+                                <asp:Label ID="messageLabel" runat="server"></asp:Label>
+
                                 </td>
                             </div>
                         </tr>
@@ -119,7 +121,7 @@
                 </Columns>
             </asp:GridView>
             <br />
-                <asp:Label ID="messageLabel" runat="server"></asp:Label>
+                
         </div>
     </form>
 
